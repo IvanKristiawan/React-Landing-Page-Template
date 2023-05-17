@@ -16,6 +16,20 @@
       "Lorem ipsum dolor",
       "Exercitation ullamco",
       "Lorem ipsum dolor"
+    ],
+    "Location": [
+      {
+        "title": "Location 1",
+        "linkGoogleMaps": "https://goo.gl/maps/93eifHQSknQjJtyt5",
+        "latitude": -7.864825,
+        "longitude": 110.320174
+      },
+      {
+        "title": "Location 2",
+        "linkGoogleMaps": "https://goo.gl/maps/93eifHQSknQjJtyt5",
+        "latitude": -7.865832,
+        "longitude": 110.321856
+      }
     ]
   },
   "Gallery": [

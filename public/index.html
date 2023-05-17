@@ -1,6 +1,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+  href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css"
+  rel="stylesheet"
+  />
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
   <link
@@ -40,6 +44,31 @@
     rel="stylesheet"
   />
   <title>A React Landing Page Template</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+    #map {
+      width: 100vw;
+      height: 100vh;
+    }
+    .control-panel {
+      position: absolute;
+      top: 0;
+      right: 0;
+      max-width: 320px;
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      padding: 12px 24px;
+      margin: 20px;
+      font-size: 13px;
+      line-height: 2;
+      color: #6b6b76;
+      text-transform: uppercase;
+      outline: none;
+    }
+  </style>
   <meta name="description" content="" />
   <meta name="author" content="@Issaafalkattan" />
 </head>
@@ -48,4 +77,7 @@
   <div id="root"></div>
   <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript">
+    App.renderToDom(document.getElementById("root"));
+  </script>
 </body>

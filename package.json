@@ -6,8 +6,10 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "emailjs-com": "^2.6.4",
+    "mapbox-gl": "^2.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-map-gl": "^7.0.23",
     "react-scripts": "^5.0.1",
     "smooth-scroll": "^16.1.3"
   },
